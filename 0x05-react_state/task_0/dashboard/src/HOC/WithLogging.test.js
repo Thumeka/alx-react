@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+*/
+
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
 import WithLogging from './WithLogging'; // Adjust the import path as necessary
