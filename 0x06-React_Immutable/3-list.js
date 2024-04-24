@@ -1,7 +1,8 @@
-import { fromJS } from 'immutable';
+import { List } from 'immutable';
 
-export default function accessImmutableObject(object, array) {
-  const mappedObj = fromJS(object);
-
-  return mappedObj.getIn(array, undefined);
+export function getListObject(array) {
+  return List(array);
+}
+export function addElementToList(list, element) {
+  return list.push(element);
 }
