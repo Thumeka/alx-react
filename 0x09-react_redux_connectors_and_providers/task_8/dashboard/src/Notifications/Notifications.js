@@ -8,7 +8,7 @@ import {
 import NotificationItem from "./NotificationItem";
 import { getUnreadNotificationsByType } from "../selectors/notificationSelector";
 import PropTypes from "prop-types";
-import closeIcon from "../assets/close-icon.png";
+import closeIcon from "./close-icon.png";
 import { StyleSheet, css } from "aphrodite";
 
 export class Notifications extends Component {
